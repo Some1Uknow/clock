@@ -1,0 +1,12 @@
+body {
+    background-color: RGBA(var(--bs-dark-rgb),var(--bs-bg-opacity,1))!important;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
