@@ -2,7 +2,7 @@
 
 A basic clock project that displays hours, minutes, and seconds in a format like "00 Hrs : 00 Minutes : 00 seconds" when you click the "Start" button.
 
-
+https://some1uknow.github.io/clock/
 
 ## Tech Stack
 
