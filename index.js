@@ -6,7 +6,8 @@ document.querySelector(".btn").addEventListener("click", () => {
 
     function updateTimer() {
         if (s <= 59) {
-            timerElement.textContent = "00 Hrs : " + m.toString().padStart(2, "0") + " Minutes : " + s.toString().padStart(2, "0") + " seconds";
+            timerElement.textContent = "00 Hrs : " + m.toString().padStart(2, "0") + 
+                " Minutes : " + s.toString().padStart(2, "0") + " seconds";
             s++;
             setTimeout(updateTimer, 1000);
         } else {
